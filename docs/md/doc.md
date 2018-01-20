@@ -508,7 +508,7 @@ if (prod) {
 ```html
 <script>
 import wepy from 'wepy';
-export default class extends wepy.app {
+export default class App extends wepy.app {
     config = {
         "pages":[
             "pages/index/index"
